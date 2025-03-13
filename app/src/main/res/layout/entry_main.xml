@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/entry_BTN_login"
+        android:layout_width="match_parent"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/entry_BTN_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="450dp"
+        android:text="Register" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/entry_BTN_guest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="650dp"
+        android:text="Enter as guest" />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/entry_LBL_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Get started with your music journey"
+        android:textSize="@dimen/default_text_size" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/entry_LBL_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="Already have an account?"
+        android:textSize="@dimen/default_text_size" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/entry_LBL_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:text="Dont have an account?\n lets sign up!"
+        android:textSize="@dimen/default_text_size" />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/entry_LBL_guest"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="550dp"
+        android:layout_centerHorizontal="true"
+        android:text="You can try out as a guest!"
+        android:textSize="@dimen/default_text_size" />
+
+
+</RelativeLayout>

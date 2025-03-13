@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/addsong_LBL_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adding a song"
+        android:gravity="center"
+        android:textSize="@dimen/default_text_size"
+        android:layout_marginBottom="8dp"
+        android:textColor="?android:textColorPrimary" />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/addsong_LBL_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the name of the song"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="?android:textColorPrimary" />
+
+    <!-- Song Name Text Input -->
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addsong_LBL_songname"
+            android:layout_width="match_parent"
+            android:hint="Song Name"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Button to Choose Public/Not Public -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addsong_BTN_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to make public"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to Select Audio File -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addsong_BTN_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Audio"
+        android:layout_marginBottom="16dp" />
+
+    <!-- TextView to display selected audio file -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/addsong_LBL_current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No file selected"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to Save Song -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addsong_BTN_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Song" />
+
+</LinearLayout>

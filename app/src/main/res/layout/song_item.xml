@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:id="@+id/songCard">
+
+
+    <!-- Song Name at the Top Right -->
+    <TextView
+        android:id="@+id/songName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="end" />
+
+    <!-- Song Duration below the Song Name -->
+    <TextView
+        android:id="@+id/songDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duration"
+        android:layout_below="@id/songName"
+        android:layout_gravity="end"
+        android:layout_marginTop="40dp" />
+
+    <!-- Public/Private Status Below the Button -->
+    <TextView
+        android:id="@+id/songIsPublic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Public/Private"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp" />
+
+    <!-- Play Button at the Bottom Right -->
+    <Button
+        android:id="@+id/songplayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp" />
+
+</androidx.cardview.widget.CardView>

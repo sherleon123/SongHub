@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SongHub</string>
+    <string name="title_home">Global</string>
+    <string name="title_dashboard">My Songs</string>
+    <string name="title_notifications">Favorites</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="maps_api_key">AIzaSyBKSDqdwAs6Mx7BIsQ411wXJAHpmPnyrIc </string>
+</resources>

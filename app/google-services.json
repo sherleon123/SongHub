@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "718128819600",
+    "firebase_url": "https://songhub-1bdb6-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "songhub-1bdb6",
+    "storage_bucket": "songhub-1bdb6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718128819600:android:d8cb21abfbd6cccf911715",
+        "android_client_info": {
+          "package_name": "com.example.songhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-ehFFwvpnDgNyYOVUwnAfCNpcld0OkjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
